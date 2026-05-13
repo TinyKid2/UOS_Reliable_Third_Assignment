@@ -1,0 +1,23 @@
+# Marabou source tree (cloned for Problem 1 exploration and not part of submission)
+Marabou/
+
+# ONNX exports / generated artifacts
+*.onnx
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# docs
+docs/
