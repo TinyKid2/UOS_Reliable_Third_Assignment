@@ -1,0 +1,21 @@
+# Python 3.11 (Marabou wheel 은 현재 3.8 ~ 3.11 만 지원함. README 참조)
+#
+# 모든 패키지는 pip 로 설치한다. Linux/macOS 권장. Windows native 는 maraboupy
+# 휠이 없으므로 WSL 사용을 권장한다.
+
+# 신경망 검증 도구
+maraboupy==2.0.0
+
+# 모델 학습/추론 (체크포인트 로딩, ONNX export, parity 검증용)
+torch==2.11.0
+torchvision==0.26.0
+
+# ONNX 모델 처리
+onnx==1.21.0
+onnxruntime==1.26.0
+# torch 2.6+ 의 ONNX export 가 onnxscript 에 의존함 (없으면 ModuleNotFoundError)
+onnxscript==0.7.0
+
+# 수치/시각화
+numpy==2.4.4
+matplotlib==3.10.9

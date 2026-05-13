@@ -1,9 +1,3 @@
-"""maraboupy + 보조 라이브러리 설치 검증 스모크 테스트.
-
-목적:
-  - maraboupy / torch / onnx / onnxruntime / numpy / matplotlib 모두 import 되는지 확인
-  - Marabou Python API 진입점 노출 여부 점검
-"""
 
 import sys
 
